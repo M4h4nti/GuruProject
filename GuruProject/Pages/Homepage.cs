@@ -6,6 +6,8 @@ namespace GuruProject
     internal class Homepage : BasePage
     {
         private IWebElement LnkMobile => driver.FindElement(By.XPath("//*[text()='Mobile']"));
+        private IWebElement LinkAccount => driver.FindElement(By.XPath("//*[@class='label' and text()='Account']"));
+        private IWebElement LinkMyAccount => driver.FindElement(By.LinkText("My Account"));
 
         public Homepage(IWebDriver driver) : base(driver)
         {}
@@ -16,6 +18,13 @@ namespace GuruProject
         {
             LnkMobile.Click();
             return new MobilePage(driver);
+        }
+
+        internal LoginPage GoToAccountPage()
+        {
+            LinkAccount.Click();
+            LinkMyAccount.Click();
+            return new LoginPage(driver);
         }
     }
 }

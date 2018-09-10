@@ -14,13 +14,15 @@ namespace GuruProject.Tests
         {
             var homePage = new Homepage(Driver);
             homePage.GoTo();
-            var mobilePage = homePage.OpenMobilePage(Driver);
-            //("a[href*= 'product/1'][class='link-compare']")
-            //("a[href*= 'product/2'][class='link-compare']")
-            //*[@title='Compare']
-            mobilePage.CompareProducts();
-
-            
+            var mobilePage = homePage.OpenMobilePage(Driver);            
+            mobilePage.AddProductToCompare("Sony Xperia");
+            mobilePage.AddProductToCompare("IPhone");
+            var popupPage = mobilePage.CompareProducts(Driver);
+            //mobilePage.PopUp.IsValueTrue();
+            //Console.WriteLine(popupPage.GetTableData("SKU", 3));
+            Assert.IsTrue(Driver.PageSource.Contains("Compare Products"));
+            Assert.IsTrue(popupPage.AreProductsPresent());
+            popupPage.Close();
         }
     }
 }
