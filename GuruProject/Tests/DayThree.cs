@@ -18,7 +18,7 @@ namespace GuruProject.Tests
             homePage.GoTo();
             var mobilePage = homePage.OpenMobilePage(Driver);           
             var shoppingCart = mobilePage.AddXperiaToCart(Driver);
-            shoppingCart.UpdateQuantity();
+            shoppingCart.UpdateQuantity("1000");
             Assert.IsTrue(shoppingCart.ErrorMessageDisplayed,"Update error");
             shoppingCart.EmptyCart();
             Assert.IsTrue(Driver.PageSource.Contains("Shopping Cart is Empty"));

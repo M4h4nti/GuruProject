@@ -66,7 +66,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pages\ShoppingCart.cs" />
+    <Compile Include="Pages\AccountPage.cs" />
+    <Compile Include="Pages\CheckoutPage.cs" />
+    <Compile Include="Pages\LoginPage.cs" />
+    <Compile Include="Pages\MyWishListPage.cs" />
+    <Compile Include="Pages\OrderConfirmPage.cs" />
+    <Compile Include="Pages\PopupPage.cs" />
+    <Compile Include="Pages\RegistrationPage.cs" />
+    <Compile Include="Pages\ShoppingCartPage.cs" />
+    <Compile Include="Pages\TVPage.cs" />
+    <Compile Include="Pages\WishListSharingPage.cs" />
     <Compile Include="Pages\XperiaPage.cs" />
     <Compile Include="Tests\DayOne.cs" />
     <Compile Include="Pages\Homepage.cs" />
@@ -78,6 +87,8 @@
     <Compile Include="Tests\DayTwo.cs" />
     <Compile Include="Tests\DayThree.cs" />
     <Compile Include="Tests\DayFour.cs" />
+    <Compile Include="Tests\DayFive.cs" />
+    <Compile Include="Tests\DaySix.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -88,6 +99,10 @@
     <ProjectReference Include="..\..\UltimateQAPractice\Resources\Resources.csproj">
       <Project>{ea6f0ed1-eb3a-44e4-a539-5d5036b8d69d}</Project>
       <Name>Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UltimateQAPractice\Utilities\Utilities.csproj">
+      <Project>{73e839f6-329c-42b0-8fcf-236585a53209}</Project>
+      <Name>Utilities</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
