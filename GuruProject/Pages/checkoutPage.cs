@@ -11,7 +11,7 @@ namespace GuruProject
         private IWebElement ButtonPaymentInformationContinue => driver.FindElement(By.XPath("//*[@onclick='payment.save()']"));
         private IWebElement RadioMoneyOrder => driver.FindElement(By.Id("p_method_checkmo"));
         private IWebElement ButtonBillingInformationContinue => driver.FindElement(By.XPath("//*[@title='Continue' and @onclick='billing.save()']"));
-        private IWebElement ButtonShippingMethodContinue => driver.FindElement(By.XPath("//*[@onclick='shippingMethod.save()']"));
+        private IWebElement ButtonShippingMethodContinue => driver.FindElement(By.XPath("//*[@id='shipping-method-buttons-container']/child::button"));
         private IWebElement RadioShipToThisAddress => driver.FindElement(By.Id("billing:use_for_shipping_yes"));
         private IWebElement TextFirstName => driver.FindElement(By.Id("billing:firstname"));
         private IWebElement TextLastName => driver.FindElement(By.Id("billing:lastname"));
@@ -56,8 +56,12 @@ namespace GuruProject
         }
 
         internal void ShippingMethodContinue()
-        {            
+        {
+            var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
+            wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[@id='shipping-method-buttons-container']/child::button")));
             ButtonShippingMethodContinue.Click();
         }
+
+
     }
 }

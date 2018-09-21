@@ -11,7 +11,7 @@ namespace GuruProject
         private IWebElement ButtonProceedToCheckout => driver.FindElement(By.XPath("//*[@class='method-checkout-cart-methods-onepage-bottom']/child::*"));
         private IWebElement ButtonUpdateTotal => driver.FindElement(By.Name("do"));
         private IWebElement RadioFlatRate => driver.FindElement(By.Name("estimate_method"));
-        private IWebElement LinkEstimate => driver.FindElement(By.LinkText("ESTIMATE"));
+        private IWebElement LinkEstimate => driver.FindElement(By.XPath("//button[@title='Estimate']"));
         private IWebElement DDLCountry => driver.FindElement(By.Id("country"));
         private IWebElement DDLState => driver.FindElement(By.Id("region_id"));
         private IWebElement TextZip => driver.FindElement(By.Id("postcode"));
