@@ -3,6 +3,7 @@ using CreatingReports;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NLog;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using Resources;
 
 namespace GuruProject
@@ -24,6 +25,7 @@ namespace GuruProject
             Driver = new WebDriverFactory().Create(BrowserType.Chrome);
             Driver.Manage().Window.Maximize();
             ScreenshotTaker = new ScreenshotTaker(Driver, TestContext);
+            //var wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(10));
         }
 
         [TestCleanup]

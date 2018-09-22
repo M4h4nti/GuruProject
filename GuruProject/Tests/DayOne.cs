@@ -10,6 +10,7 @@ namespace GuruProject
         [TestMethod]
         [Description("Verify item in mobile list page is sorted by name")]
         [TestProperty("Author","VJKumar")]
+        
         public void SortByName()
         {
             var homePage = new Homepage(Driver);

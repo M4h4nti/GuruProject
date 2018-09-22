@@ -30,7 +30,7 @@ namespace GuruProject.Tests
             homePage.GoTo();
             var loginPage = homePage.GoToAccountPage();
             var registrationPage = loginPage.CreateNewAccount();
-            var accountPage = registrationPage.CreateAccount("Mahi", "Kumar", "MahiKumar3@live.com", "password", "password");
+            var accountPage = registrationPage.CreateAccount("Mahi", "Kumar", "MahiKumar4@live.com", "password", "password");
             Assert.IsTrue(Driver.Title.Equals("My Account"));
             var tvPage = accountPage.OpenTVPage();
             var myWishListPage = tvPage.AddProductToWishList();

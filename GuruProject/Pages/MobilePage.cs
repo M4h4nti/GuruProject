@@ -2,6 +2,7 @@
 using System.Linq;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
+using Utilities;
 
 namespace GuruProject
 {
@@ -37,9 +38,10 @@ namespace GuruProject
 
         //public MobilePage PopUp { get; internal set; }
 
-        internal void AddProductToCompare(string v)
+        internal void AddProductToCompare(string mobileName)
         {
-            switch (v)
+            ReportHelper.TestStepInfo("Adding procuts to compare List..");
+            switch (mobileName)
             {
                 case "Sony Xperia":
                     XperiaAddToCompare.Click();
@@ -50,36 +52,46 @@ namespace GuruProject
                 default:
                     break;
             }
+            ReportHelper.TestStepPass("Added products sucesfully to compare List..");
         }
 
         internal PopupPage CompareProducts(IWebDriver driver)
         {
+            ReportHelper.TestStepInfo("Comparing products in compare list..");
             CompareButton.Click();
+            ReportHelper.TestStepInfo("New window pops up..");
             driver.SwitchTo().Window(driver.WindowHandles.Last());
+            ReportHelper.TestStepInfo("Window switch Success...");
             return new PopupPage(driver);
         }
 
-        public MobilePage(IWebDriver driver) : base(driver)
-        { }
+        public MobilePage(IWebDriver driver) : base(driver) => ReportHelper.PassingTestStep("Redirected to Mobile Page..");
+        
 
-        public void SortBy(string v)
+        public void SortBy(string value)
         {
-            new SelectElement(DdlSort).SelectByText(v);
+            ReportHelper.TestStepInfo("Sorting by...");
+            new SelectElement(DdlSort).SelectByText(value);
+            ReportHelper.PassingTestStep("Sorted..");
         }
 
         internal string GetXperiaPrice()
         {
+            ReportHelper.TestStepInfo("Getting xperia price..");
+            ReportHelper.TestStepPass($"{Price.Text}");
             return Price.Text;
         }
 
         internal ShoppingCartPage AddXperiaToCart(IWebDriver driver)
         {
+            ReportHelper.TestStepInfo("Adding xperia to cart..");
             XperiaAddToCartButton.Click();
             return new ShoppingCartPage(driver);
         }
 
         internal XperiaPage OpenXperiaPage(IWebDriver driver)
         {
+            ReportHelper.TestStepInfo("Opening xperia page..");
             XperiaProduct.Click();
             return new XperiaPage(driver);
         }
