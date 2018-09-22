@@ -21,7 +21,7 @@ namespace GuruProject.Tests
             var homePage = new Homepage(Driver);
             homePage.GoTo();
             var loginPage = homePage.GoToAccountPage();
-            var accountPage = loginPage.Login("Mahikumar2@live.com","password");
+            var accountPage = loginPage.Login("Mahikumar4@live.com","password");
             Assert.IsTrue(Driver.Title.Equals("My Account"));
             var myWishListPage = accountPage.OpenMyWishList();
             var shoppingCartPage = myWishListPage.AddToCart();
@@ -34,8 +34,12 @@ namespace GuruProject.Tests
             checkoutPage.ShippingMethodContinue();
             checkoutPage.SelectPaymentInformationAndContinue();            
             var orderConfirmPage = checkoutPage.PlaceOrder();
-            Assert.IsTrue(Driver.Url.Contains("success"));
-            System.Console.WriteLine(orderConfirmPage.OrderNumber); //$$("a[href*= 'order/view']")
+            //System.Console.WriteLine(orderConfirmPage.OrderNumber);
+            //Assert.IsTrue(Driver.PageSource.Contains("Thank you for your purchase!"));
+            //Assert.IsTrue(Driver.Url.Contains("success"));
+            Assert.IsTrue(orderConfirmPage.OrderNumberIsDisplayed);
+            System.Console.WriteLine(orderConfirmPage.OrderNumber);
+            System.Console.WriteLine($"{Driver.Url}");
         }
     }
 }

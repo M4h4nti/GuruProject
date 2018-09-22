@@ -25,37 +25,46 @@ namespace GuruProject
 
         internal CheckoutPage ProceedToCheckout()
         {
+            ReportHelper.TestStepInfo("proceeding to checkout..");
             ButtonProceedToCheckout.Click();
             return new CheckoutPage(driver);
         }
 
-        public ShoppingCartPage(IWebDriver driver) : base(driver)
-        { }
+        public ShoppingCartPage(IWebDriver driver) : base(driver) => ReportHelper.PassingTestStep("Redirected to shopping cart Page..");
+
 
         internal void UpdateQuantity(string value)
         {
+            ReportHelper.TestStepInfo("Updating quantity..");
             AddQuantity.EnterText(value);
             UpdateButton.Click();
+            ReportHelper.PassingTestStep("Updated quantity sucessfully..");
         }
 
         internal void UpdateTotal()
         {
+            ReportHelper.TestStepInfo("Updating total after flat rate..");
             if (!RadioFlatRate.Selected)
                 RadioFlatRate.Click();
             ButtonUpdateTotal.Click();
+            ReportHelper.PassingTestStep("Updated total sucessfully..");
         }
 
         internal void EmptyCart()
         {
+            ReportHelper.TestStepInfo("Emptying cart..");
             EmptyButton.Click();
+            ReportHelper.PassingTestStep("Cart emptied sucessfully..");
         }
 
         internal void EstimateShippingAndTax(string country, string state, string zip)
         {
+            ReportHelper.TestStepInfo("Estimating shipping cost and tax..");
             new SelectElement(DDLCountry).SelectByText(country);
             new SelectElement(DDLState).SelectByText(state);
             TextZip.EnterText(zip);
             LinkEstimate.Click();
+            ReportHelper.TestStepInfo("estimation Done..");
         }
 
         public bool ErrorMessageDisplayed => ErrorMessage.Displayed;

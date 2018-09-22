@@ -12,20 +12,22 @@ namespace GuruProject
         private IWebElement LinkCreateAccount => driver.FindElement(By.XPath("//*[@title='Create an Account']"));
 
 
-        public LoginPage(IWebDriver driver) : base(driver)
-        {}
-
+        public LoginPage(IWebDriver driver) : base(driver) => ReportHelper.PassingTestStep("Redirected to Login Page..");
+        
         internal RegistrationPage CreateNewAccount()
         {
+            ReportHelper.TestStepInfo("Opening Registration Page by clicking create account..");
             LinkCreateAccount.Click();
             return new RegistrationPage(driver);
         }
 
         internal AccountPage Login(string Email, string Password)
         {
+            ReportHelper.TestStepInfo("Logging in..");
             TextLoginEmail.EnterText(Email);
             TextLoginPassword.EnterText(Password);
             ButtonLogin.Click();
+            ReportHelper.PassingTestStep("Logged in successfully..");
             return new AccountPage(driver);
         }
     }
