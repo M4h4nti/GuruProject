@@ -1,0 +1,86 @@
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Opening mobile page..
+Redirected to Mobile Page..
+Sorting by...
+Sorted..
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Opening mobile page..
+Redirected to Mobile Page..
+Getting xperia price..
+$100.00
+Opening xperia page..
+Redirected to Xperia Page..
+Getting xperia price..
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Opening mobile page..
+Redirected to Mobile Page..
+Adding xperia to cart..
+Redirected to shopping cart Page..
+Updating quantity..
+Updated quantity sucessfully..
+Emptying cart..
+Cart emptied sucessfully..
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Opening mobile page..
+Redirected to Mobile Page..
+Adding procuts to compare List..
+Added products sucesfully to compare List..
+Adding procuts to compare List..
+Added products sucesfully to compare List..
+Comparing products in compare list..
+New window pops up..
+Window switch Success...
+Redirected to popup Page..
+Checking for presence of products in popup..
+Closing the popup..
+popup closed successfully..
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Opening Registration Page by clicking create account..
+Redirected to Registration Page..
+Creating account...
+Account created sucessfully...
+Redirected to Account Page..
+Screenshot Of Error=>E:\Testing\AutomationPractice\UltimateQAPractice\UltimateQAPractice\Reports\1220_0851\FAIL_CreateAccountAndShareWishlist.jpg
+Test Failed=>GuruProject.Tests.DayFive
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+Wish List to be clicked..
+Redirected to MyWishList Page..
+Adding wish list to cart..
+Redirected to shopping cart Page..
+Estimating shipping cost and tax..
+Screenshot Of Error=>E:\Testing\AutomationPractice\UltimateQAPractice\UltimateQAPractice\Reports\1220_0851\FAIL_PurchaseProduct.jpg
+Test Failed=>GuruProject.Tests.DaySix
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+My orders to be clicked..
+Redirected to My orders..
+Clicking view order link..
+Redirected to Orders Page..

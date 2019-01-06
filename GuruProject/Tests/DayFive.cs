@@ -9,7 +9,7 @@ namespace GuruProject.Tests
         [TestMethod]
         [Description("Create a new account and can share wishlist to other people using email")]
         [TestProperty("Author","VJKumar")]
-        [Ignore]
+        [Ignore]        
         public void CreateAccount()
         {
             var homePage = new Homepage(Driver);
@@ -37,6 +37,6 @@ namespace GuruProject.Tests
             var wishListSharingPage = myWishListPage.ShareWishList();
             wishListSharingPage.ShareWithMessage("Mahikumar2@live.com","Hi");
             Assert.AreEqual("Your Wishlist has been shared.", wishListSharingPage.SuccessMessage);
-        }
+        }        
     }
 }

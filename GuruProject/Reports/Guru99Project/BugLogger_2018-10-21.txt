@@ -1,0 +1,121 @@
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+My orders to be clicked..
+Redirected to My orders..
+Clicking view order link..
+Redirected to Orders Page..
+Screenshot Of Error=>E:\Testing\AutomationPractice\UltimateQAPractice\UltimateQAPractice\Reports\1021_1548\FAIL_DownloadPDF.jpg
+Test Failed=>GuruProject.Tests.DaySeven
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+My orders to be clicked..
+Redirected to My orders..
+Clicking view order link..
+Redirected to Orders Page..
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+My orders to be clicked..
+Redirected to My orders..
+Clicking view order link..
+Redirected to Orders Page..
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+My orders to be clicked..
+Redirected to My orders..
+Clicking view order link..
+Redirected to Orders Page..
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+My orders to be clicked..
+Redirected to My orders..
+Clicking view order link..
+Redirected to Orders Page..
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+My orders to be clicked..
+Redirected to My orders..
+Clicking view order link..
+Redirected to Orders Page..
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+My orders to be clicked..
+Redirected to My orders..
+Clicking view order link..
+Redirected to Orders Page..
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+My orders to be clicked..
+Redirected to My orders..
+Clicking view order link..
+Redirected to Orders Page..
+Screenshot Of Error=>E:\Testing\AutomationPractice\UltimateQAPractice\UltimateQAPractice\Reports\1021_1656\FAIL_DownloadPDF.jpg
+Test Failed=>GuruProject.Tests.DaySeven
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+My orders to be clicked..
+Redirected to My orders..
+Clicking view order link..
+Redirected to Orders Page..

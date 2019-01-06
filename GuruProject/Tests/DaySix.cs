@@ -41,5 +41,18 @@ namespace GuruProject.Tests
             System.Console.WriteLine(orderConfirmPage.OrderNumber);
             System.Console.WriteLine($"{Driver.Url}");
         }
+
+        //[TestMethod]
+        //[Description("Add product to wish if one is not there..")]
+        //[TestProperty("Author", "VJKumar")]
+        ////[Ignore]
+        public void AddProductToWishlist()
+        {
+            var accountPage = new AccountPage(Driver);
+            var tvPage = accountPage.OpenTVPage();
+            var myWishListPage = tvPage.AddProductToWishList();
+        }
+
+
     }
 }

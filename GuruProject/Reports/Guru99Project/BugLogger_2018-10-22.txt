@@ -1,0 +1,30 @@
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Opening mobile page..
+Redirected to Mobile Page..
+Sorting by...
+Sorted..
+Screenshot Of Error=>E:\Testing\AutomationPractice\UltimateQAPractice\UltimateQAPractice\Reports\1022_1729\FAIL_SortByName.jpg
+Test Failed=>GuruProject.DayOne
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Opening mobile page..
+Redirected to Mobile Page..
+Sorting by...
+Sorted..
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Opening mobile page..
+Redirected to Mobile Page..
+Sorting by...
+Sorted..
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Opening mobile page..
+Redirected to Mobile Page..
+Sorting by...
+Sorted..
