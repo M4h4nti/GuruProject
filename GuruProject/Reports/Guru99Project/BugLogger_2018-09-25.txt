@@ -1,0 +1,126 @@
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+Wish List to be clicked..
+Redirected to MyWishList Page..
+Adding wish list to cart..
+Screenshot Of Error=>E:\Testing\AutomationPractice\UltimateQAPractice\UltimateQAPractice\Reports\0925_1622\FAIL_PurchaseProduct.jpg
+Test Failed=>GuruProject.Tests.DaySix
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+Wish List to be clicked..
+Redirected to MyWishList Page..
+Adding wish list to cart..
+Redirected to shopping cart Page..
+Estimating shipping cost and tax..
+estimation Done..
+Updating total after flat rate..
+Updated total sucessfully..
+proceeding to checkout..
+Redirected to Check Out Page..
+Updated billing info of customer successfully...
+Waiting for button to visible..
+Screenshot Of Error=>E:\Testing\AutomationPractice\UltimateQAPractice\UltimateQAPractice\Reports\0925_1625\FAIL_PurchaseProduct.jpg
+Test Failed=>GuruProject.Tests.DaySix
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+Wish List to be clicked..
+Redirected to MyWishList Page..
+Adding wish list to cart..
+Screenshot Of Error=>E:\Testing\AutomationPractice\UltimateQAPractice\UltimateQAPractice\Reports\0925_1628\FAIL_PurchaseProduct.jpg
+Test Failed=>GuruProject.Tests.DaySix
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+Wish List to be clicked..
+Redirected to MyWishList Page..
+Adding wish list to cart..
+Redirected to shopping cart Page..
+Estimating shipping cost and tax..
+estimation Done..
+Updating total after flat rate..
+Updated total sucessfully..
+proceeding to checkout..
+Redirected to Check Out Page..
+Updated billing info of customer successfully...
+Waiting for button to visible..
+Screenshot Of Error=>E:\Testing\AutomationPractice\UltimateQAPractice\UltimateQAPractice\Reports\0925_1643\FAIL_PurchaseProduct.jpg
+Test Failed=>GuruProject.Tests.DaySix
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+Wish List to be clicked..
+Redirected to MyWishList Page..
+Adding wish list to cart..
+Redirected to shopping cart Page..
+Estimating shipping cost and tax..
+estimation Done..
+Updating total after flat rate..
+Updated total sucessfully..
+proceeding to checkout..
+Redirected to Check Out Page..
+Updated billing info of customer successfully...
+Waiting for button to visible..
+Continue Button after shipping method clicked successfully...
+Selecting Payment method..
+Screenshot Of Error=>E:\Testing\AutomationPractice\UltimateQAPractice\UltimateQAPractice\Reports\0925_1648\FAIL_PurchaseProduct.jpg
+Test Failed=>GuruProject.Tests.DaySix
+Redirecting to Home Page..
+Opening homepage Url
+Home Page Opened Succesfully..
+Clicking Account link..
+clicking MyAccount link..
+Redirected to Login Page..
+Logging in..
+Logged in successfully..
+Redirected to Account Page..
+Wish List to be clicked..
+Redirected to MyWishList Page..
+Adding wish list to cart..
+Redirected to shopping cart Page..
+Estimating shipping cost and tax..
+estimation Done..
+Updating total after flat rate..
+Updated total sucessfully..
+proceeding to checkout..
+Redirected to Check Out Page..
+Updated billing info of customer successfully...
+Waiting for button to visible..
+Continue Button after shipping method clicked successfully...
+Selecting Payment method..
+Clicking continue Button after selecting payment method..
+Continue Button after selecting payment method clicked successfully...
+Clicking Place order..
+Redirected to Order confirmation Page with order number..

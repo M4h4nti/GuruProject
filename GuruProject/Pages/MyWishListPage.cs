@@ -10,7 +10,9 @@ namespace GuruProject
         private IWebElement ButtonShareWishList => driver.FindElement(By.Name("save_and_share"));
 
         public MyWishListPage(IWebDriver driver) : base(driver) => ReportHelper.PassingTestStep("Redirected to MyWishList Page..");
-        
+
+        private bool ElementPresent => ButtonAddToCart.Displayed;
+
 
         internal WishListSharingPage ShareWishList()
         {
@@ -22,8 +24,20 @@ namespace GuruProject
         internal ShoppingCartPage AddToCart()
         {
             ReportHelper.TestStepInfo("Adding wish list to cart..");
-            ButtonAddToCart.Click();
+            try
+            {
+                ButtonAddToCart.Click();
+            }
+            catch (NoSuchElementException)
+            {
+                //if(CartCount > 0)
+                //    ClearCart();  
+                
+            }
+            
             return new ShoppingCartPage(driver);
         }
+
+
     }
 }

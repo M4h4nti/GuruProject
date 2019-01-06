@@ -2,6 +2,8 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using Utilities;
+using SeleniumExtras.WaitHelpers;
+using ExpectedConditions = SeleniumExtras.WaitHelpers.ExpectedConditions;
 
 namespace GuruProject
 {
@@ -63,7 +65,7 @@ namespace GuruProject
         {
             ReportHelper.TestStepInfo("Selecting Payment method..");
             //WaitHelper.WaitUntilVisible(driver, By.XPath("//*[contains(@for,'p_method_checkmo')]"));
-            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
             //WaitHelper.WaitUntilTextElement(driver, RadioMoneyOrder, "Check / Money order ");
             //WaitUntilElementVisible(By.Id("p_method_checkmo"));
             RadioMoneyOrder.Click();                        
@@ -77,8 +79,8 @@ namespace GuruProject
         {
             ReportHelper.TestStepInfo("Waiting for button to visible..");
             //WaitHelper.WaitUntilVisible(driver,By.XPath("//*[@id='shipping-method-buttons-container']/child::button"));
-            //WaitUntilElementVisible(By.XPath("//*[@id='shipping-method-buttons-container']/child::button"));
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+            WaitUntilElementVisible(By.XPath("//*[@id='shipping-method-buttons-container']/child::button"));
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             ButtonShippingMethodContinue.Click();
             ReportHelper.PassingTestStep("Continue Button after shipping method clicked successfully...");
         }
